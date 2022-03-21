@@ -1,0 +1,42 @@
+.categoriesBlock {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+
+.categoriesBlock button { 
+  width: 30%;
+  height: 45vh;
+  margin: 10px auto;
+  box-shadow: 2px 4px 4px 2px;
+  background-color: rgb(233, 247, 239 ) ;
+  cursor: pointer;
+}
+
+h1 {
+   color: rgb(21, 67, 96 );
+   font-size: 36px;
+   font-weight: 600;
+}
+
+h2 {
+ text-shadow: 2px 2px 1px #000080;
+ color: #333333;
+ font-size: 42px;
+}
+
+p {
+  color: rgb(77, 86, 86);
+}
+
+
+@media only screen and (max-width: 768px) {
+  .categoriesBlock {
+    flex-direction: column;
+  }
+  .categoriesBlock button {
+    width: 100%;
+  }
+}
